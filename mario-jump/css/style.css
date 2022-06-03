@@ -11,7 +11,8 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87CEEB, #E0F6FF);
+    background: linear-gradient(#87CEEB, #E0F6FE);
+    /* #E0F6FF  cor do céu */
 }
 
 .pipe {
@@ -36,9 +37,11 @@
     position: absolute;
     width: 500px;
     animation: clouds-animation 22s infinite linear;
+    /* tempo de duração, que objeto toca no mario*/
 }
 
 @keyframes pipe-animation {
+    /* tempo de duração, que objeto toca no mario*/
     from {
         right: -80px;
     }
@@ -48,6 +51,7 @@
 }
 
 @keyframes jump {
+    /* tempo de duração, que objeto toca no mario*/
     0% {
         bottom: 0;
     }
@@ -66,6 +70,7 @@
 }
 
 @keyframes clouds-animation {
+    /* tempo referente as nuvens*/
     from {
         right: -550px;
     }
